@@ -14,20 +14,15 @@ function App() {
 
   return (
     <>
-
       <ThemeContext.Provider value={{ tema, trocarTema }}>
         <div id={tema}>
           <div className="switch">
             <label>{tema === "light" ? "Modo Claro" : "Modo Escuro"}</label>
-            <ReactSwitch
-              // borderRadius={10}
-              onChange={trocarTema}
-              checked={tema === "dark"}
-              />
-          </div> 
+            <ReactSwitch onChange={trocarTema} checked={tema === "dark"} />
+          </div>
           <div className="pesquisaComponent">
             <Pesquisa tema={tema} />
-          </div> 
+          </div>
         </div>
       </ThemeContext.Provider>
     </>

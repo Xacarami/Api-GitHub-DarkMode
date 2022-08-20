@@ -40,13 +40,19 @@ function Repositorios({nickname, tema}) {
                 </div>
                 <div className='repositorioUnico'>
                     {reposFiltrados.map((repositorio)=>{
-                        return(
-                            <div className='teste' key={repositorio.id}>
-                                <a href={repositorio.html_url} target="_blank" rel="noreferrer"><h3>{repositorio.name}</h3></a>
-                                <p className='linguagem'>{repositorio.language}</p>
-                                <p>{repositorio.description}</p>
-                            </div>
-                        )
+                        return (
+                          <div className="teste" key={repositorio.id}>
+                            <a
+                              href={repositorio.html_url}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <h3>{repositorio.name}</h3>
+                            </a>
+                            <p className="linguagem">{repositorio.language}</p>
+                            <p>{repositorio.description}</p>
+                          </div>
+                        );
                     })}
                 </div>
             </div>
