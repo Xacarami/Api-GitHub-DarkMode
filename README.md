@@ -1,3 +1,12 @@
+# Projeto criado utilizando a api do GitHub
+
+### Este projeto serve para poder ver todos os perfis do github com seus repositórios.
+#### A caixa de pesquisa dos repositórios funcionam dinamicamente, sem precisar de um botão para achar. Pode ser encontrado tanto pelo título, pela descrição e pela linguagem principal
+
+![Action-20-08-2022-11-48-19](https://user-images.githubusercontent.com/57050195/185752563-98c25727-deb2-4533-9968-40c76afa6501.gif)
+![Action-20-08-2022-11-52-45](https://user-images.githubusercontent.com/57050195/185752673-2b68f141-2f20-40b8-b6b8-5e9d73d48864.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
