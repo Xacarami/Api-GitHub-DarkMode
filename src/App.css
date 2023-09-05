@@ -1,16 +1,12 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+#dark {
+  background-color: #111111;
 }
 
-/* html{
-  background-color: #111111;
-} */
+#light {
+  background-color: #fff;
+}
 
-
-
-#dark .switch{
+.switch {
   background-color: transparent;
   position: absolute;
   right: 20px;
@@ -19,34 +15,14 @@
   display: flex;
   align-items: center;
 }
-#light .switch{
-  background-color: transparent;
-  position: fixed;
-  right: 20px;
-  top: 10px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-}
 
-#dark .switch label{
-  color: white;
-  background-color: transparent;
-  margin-right: 10px;
-  font-size: 14px;
-}
-
-#light .switch label{
+.switch label {
   color: black;
   background-color: transparent;
   margin-right: 10px;
   font-size: 14px;
 }
 
-#dark{
-  background-color: #111111;
-}
-
-#light{
-  background-color: #fff;
+#dark .switch label {
+  color: white;
 }

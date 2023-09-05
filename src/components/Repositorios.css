@@ -1,55 +1,39 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-#dark{
-    background-color: #111111;
-}
-
-#light{
+#light {
     background-color: #fff;
 }
 
-#dark h3{
-    color: #fff;
+#dark {
+    background-color: #111111;
 }
 
-#light h3{
+h3 {
     color: #111111;
 }
 
-#dark p{
+#dark h3 {
     color: #fff;
-    font-size: 20px;
 }
 
-#light p{
+p {
     color: #111111;
     background-color: transparent;
     font-size: 20px;
 }
 
-.repositorioUnico{
+#dark p {
+    color: #fff;
+}
+
+.repositorioUnico {
     background-color: transparent;
 }
 
-#dark .pesquisaRepos .numeroRepos{
-    margin: 15px 0 0 -18%;
-    font-size: 20px;
-}
-#light .pesquisaRepos .numeroRepos{
+.pesquisaRepos .numeroRepos {
     margin: 15px 0 0 -18%;
     font-size: 20px;
 }
 
-#darknumeroRepos .pesquisaRepos .numeroRepos{
-    margin: 15px 0 0 -18%;
-    font-size: 20px;
-}
-
-.pesquisaRepos{
+.pesquisaRepos {
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -58,19 +42,17 @@
     justify-content: center;
 }
 
-#dark .pesquisaRepos p{
-    color: #fff;
-    font-size: 13px;
-    margin: 2px 0;
-}
-
-#light .pesquisaRepos p{
+.pesquisaRepos p {
     color: #111111;
     font-size: 13px;
     margin: 2px 0;
 }
 
-#dark .pesquisaRepos input{
+#dark .pesquisaRepos p {
+    color: #fff;
+}
+
+.pesquisaRepos input {
     background-color: transparent;
     color: white;
     padding: 9px;
@@ -81,25 +63,18 @@
     transition: 0.5s;
 }
 
-#light .pesquisaRepos input{
-    background-color: transparent;
+#dark .pesquisaRepos input {
     color: #111111;
-    padding: 9px;
-    border: none;
-    border: 1px solid #003a90;
-    border-radius: 10px;
-    font-size: 16px;
-    transition: 0.5s;
 }
 
-#dark .pesquisaRepos input:focus{
+#dark .pesquisaRepos input:focus {
     background-color: #fefefe;
     color: black;
     border: none;
     outline: none;
 }
 
-.repositorioUnico{
+.repositorioUnico {
     gap: 15px 30px;
     width: 70%;
     margin: auto;
@@ -108,51 +83,57 @@
     grid-template-columns: auto auto;
 }
 
-.teste{
+.teste {
     padding: 2px 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 
-    overflow: hidden; /* Removendo barra de rolagem */
+    overflow: hidden;
+    /* Removendo barra de rolagem */
     display: -webkit-box;
-    text-overflow: ellipsis; /* Adicionando "..." ao final */
-    -webkit-line-clamp: 6; /* Quantidade de linhas*/
-    -webkit-box-orient: vertical; 
+    text-overflow: ellipsis;
+    /* Adicionando "..." ao final */
+    -webkit-line-clamp: 6;
+    /* Quantidade de linhas*/
+    -webkit-box-orient: vertical;
 }
 
-#dark .teste{
+.teste {
+    background-color: rgb(233, 233, 233);
+}
+
+#dark .teste {
     background-color: #1d1d1d;
 }
-#light .teste{
-    background-color: rgb(248, 248, 248);
-}
 
-.teste p, h3{
+.teste p,
+h3 {
     margin: 10px 0;
     background-color: transparent;
 }
 
-.teste a{
+.teste a {
     text-decoration: none;
 }
 
-#dark .teste a h3:hover{
+.teste a h3:hover {
+    color: #555555;
+}
+
+#dark .teste a h3:hover {
     color: #9f9f9f;
 }
-#light .teste a h3:hover{
+
+.teste p:nth-of-type(1) {
     color: #555555;
+    font-size: 15px;
 }
 
-#dark .teste p:nth-of-type(1){
+#dark .teste p:nth-of-type(1) {
     color: #888888;
-    font-size: 15px;
-}
-#light .teste p:nth-of-type(1){
-    color: #555555;
-    font-size: 15px;
 }
 
-.linguagem{
+.linguagem {
     font-size: 14px;
     color: #9f9f9f;
     display: flex;

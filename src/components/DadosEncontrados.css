@@ -1,18 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-#light{
+#light {
     background-color: #fff;
 }
 
-#dark{
+#dark {
     background-color: #111111;
 }
 
-.resumoPerfil{
+.resumoPerfil {
     display: flex;
     min-width: 350px;
     width: fit-content;
@@ -28,7 +22,7 @@
     background-color: transparent;
 }
 
-.resumoPerfil img{
+.resumoPerfil img {
     height: 140px;
     width: auto;
     display: flex;
@@ -36,80 +30,88 @@
     border-radius: 20px;
 }
 
-.resumoPerfil p{
+.resumoPerfil p {
     font-size: 20px;
 }
 
-#dark .resumoPerfil a{
-    text-decoration: none;
-    background-color: transparent;
-    color: #fff;
-}
-#light .resumoPerfil a{
+.resumoPerfil a {
     text-decoration: none;
     background-color: transparent;
     color: #111111;
 }
 
-#dark .resumoPerfil a:hover{
-    color: #585858;
+#dark .resumoPerfil a {
+    color: #fff;
 }
 
-#light .resumoPerfil a:hover, #light .logins h2:hover{
-    color: #585858;
+.resumoPerfil a:hover,
+.logins h2:hover {
+    /* color: #585858; */
+    color: #9f9f9f;
 }
 
-.divNick{
+.divNick {
     display: flex;
     padding-top: 50px;
     justify-content: flex-start;
 }
 
-.divNick .nickGithub, .divNick .company{
+.divNick span {
+    margin: 0 6px 0 0;
+}
+
+.divNick .nickGithub,
+.divNick .company {
     font-size: 14px;
     margin-right: 15px;
 }
 
-.divNick span{
-    margin: 0 6px 0 0;
-}
-
-.divNick .company{
+.divNick .company {
     color: #a3a3a3;
     display: flex;
 }
 
-#dark .logins{
+.logins {
     display: flex;
     flex-direction: column;
     margin: auto;
+    color: black;
+    background-color: transparent;
+}
+
+#dark .logins {
     color: #fff;
 }
-#light .logins{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    color: black;
-    background-color: transparent;
-}
 
-#light .logins h2, #light .logins div,#light .logins a,#light .logins p{
+#light .logins h2,
+#light .logins div,
+#light .logins a,
+#light .logins p {
     background-color: transparent;
     color: black;
 }
 
-#dark .divNick p{
+.logins p {
+    font-size: 16px;
+}
+
+#dark .logins a:hover {
+    color: #9f9f9f;
+}
+
+.divNick p {
     font-size: 15px;
 }
-#light .divNick p{
+
+#dark .divNick p {
     font-size: 15px;
 }
 
-#light .logins .divNick span{
+#light .logins .divNick span {
     color: black;
     background-color: transparent;
 }
 
-svg{
+svg {
     background-color: transparent;
 }
